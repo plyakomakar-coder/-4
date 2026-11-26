@@ -85,7 +85,7 @@ public final class RuleRegistry {
         ALL.add(new Template(1, RuleEvents.BlastOnBreak::new));
         ALL.add(new Template(1, () -> new RuleEvents.Summon("summon_wither", "Визер рядом с тобой",
                 EntityType.WITHER, 1, 1)));
-        ALL.add(new Template(1, () -> new RuleEvents.Summon("summon_warden", "Варден рядом с тобой",
+        ALL.add(new Template(5, () -> new RuleEvents.Summon("summon_warden", "Варден рядом с тобой",
                 EntityType.WARDEN, 1, 1)));
         ALL.add(new Template(2, () -> new RuleEvents.Summon("zombie_pack", "Стая зомби",
                 EntityType.ZOMBIE, 3, 5)));
